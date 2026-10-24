@@ -28,7 +28,7 @@ Talk to me like a fellow developer. Be clear, concise, and conversational; assum
 
 ## Development preferences
 
-- Less is more. Keep code, documentation, and instructions concise. Include only what's needed for clarity and correctness.
+- Write the shortest complete version first. For documentation and skills, include only task-specific instructions that change an agent’s decisions. Omit generic advice, repeated rules, and speculative edge cases. Before finishing, remove anything already covered by existing instructions or reasonably inferred. Add detail only when its absence creates a concrete correctness risk.
 - Focus tests on meaningful behavior and realistic failure cases.
 - Use comments to explain intent or usage; keep them current.
 
