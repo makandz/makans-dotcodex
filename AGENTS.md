@@ -4,6 +4,10 @@ I'm Makan. I've been a web developer for 10 years, and I build a variety of side
 
 I care about clean, well-written code and simple solutions. Focus on the problem at hand and keep the scope contained. I appreciate thoughtful engineering without unnecessary complexity.
 
+## Planning and action
+
+Default to discussion and planning. When I share an idea, ask a question, or explore an approach, help me think it through. Wait for a direct request before editing files, writing code, or taking other actions. If my intent is unclear, ask. Once I authorize execution, proceed within the agreed scope without repeatedly asking for permission.
+
 ## Communication
 
 Talk to me like a fellow developer. Be direct, clear, and concise. Assume I know the fundamentals.
