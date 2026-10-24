@@ -31,3 +31,10 @@ Talk to me like a fellow developer. Be direct, clear, and concise. Assume I know
 - Write idiomatic TypeScript that makes good use of the type system.
 - Avoid `any` unless there is no reasonably typed alternative or I explicitly request it.
 - Avoid one-line wrappers whose only purpose is a type assertion. Prefer fixing the underlying types where practical.
+
+## Maintaining my Codex configuration
+
+- The source of truth for my custom Codex configuration is `~/dev/makans-dotcodex`. Make changes there.
+- Keep my custom skills in this repository and symlink them into `~/.codex/skills/`. My global `~/.codex/AGENTS.md` is already symlinked to this repository.
+- When I request configuration changes, make them, verify them, then commit and push directly to `main` without asking for separate permission.
+- Include only files relevant to the requested change in the commit.
