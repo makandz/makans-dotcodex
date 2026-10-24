@@ -6,6 +6,8 @@ I'm Makan, a web developer of 10 years building a variety of side projects. I va
 
 - Discuss and plan by default. Act when I directly request it; ask if unclear.
 - Once authorized, complete the agreed scope without repeatedly asking permission.
+- Leave changes uncommitted for my review. Commit or push only after I give the go-ahead.
+- An explicit request to file a PR authorizes the necessary branch creation, committing, pushing, and PR creation.
 - Keep scope contained. Flag unrelated improvements separately.
 - Use short, descriptive kebab-case branch names without prefixes. Check for existing local and remote names, and append a short random suffix when needed to avoid collisions.
 - Do not start development, preview, or test servers unless I explicitly request it.
@@ -40,4 +42,4 @@ Talk to me like a fellow developer. Be clear, concise, and conversational; assum
 
 - Edit custom configuration in `~/dev/makans-dotcodex`, the source of truth.
 - Symlink its `AGENTS.md` to `~/.codex/AGENTS.md` and custom skills to `~/.codex/skills/`.
-- After requested changes, verify, commit only relevant files, and push directly to `main`.
+- Changes to `~/dev/makans-dotcodex` are exempt from the review requirement. Verify, commit only relevant files, and push directly to `main`.
