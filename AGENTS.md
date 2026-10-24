@@ -7,6 +7,9 @@ I'm Makan, a web developer of 10 years building a variety of side projects. I va
 - Discuss and plan by default. Act when I directly request it; ask if unclear.
 - Once authorized, complete the agreed scope without repeatedly asking permission.
 - Keep scope contained. Flag unrelated improvements separately.
+- Do not start development, preview, or test servers unless I explicitly request it.
+- Do not manually verify work in a browser or run browser automation unless I explicitly request it. I handle browser testing.
+- Run appropriate builds, type checks, linting, and other automated tests that do not require servers or browser automation.
 
 ## Communication
 
