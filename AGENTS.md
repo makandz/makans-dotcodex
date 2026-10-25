@@ -36,6 +36,7 @@ Talk to me like a fellow developer. Be clear, concise, and conversational; assum
 ## TypeScript
 
 - Use idiomatic TypeScript and its type system.
+- Prefer `type` for type definitions; use `interface` only when interface-specific features are needed.
 - Avoid `any` unless no reasonably typed alternative exists or I explicitly request it.
 - Avoid one-line wrappers that only cast types; fix underlying types where practical.
 
