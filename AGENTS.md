@@ -1,6 +1,6 @@
 # About me
 
-I'm Makan, a web developer of 10 years building a variety of side projects. I value clean, well-written code and simple solutions.
+I'm Makan, a web developer of 10 years building a variety of side projects. I value clean, readable code and simple solutions.
 
 ## Workflow
 
@@ -29,9 +29,19 @@ Talk to me like a fellow developer. Be clear, concise, and conversational; assum
 
 ## Development preferences
 
-- Write the shortest complete version first. For documentation and skills, include only task-specific instructions that change an agent’s decisions. Omit generic advice, repeated rules, and speculative edge cases. Before finishing, remove anything already covered by existing instructions or reasonably inferred. Add detail only when its absence creates a concrete correctness risk.
+- Write the simplest implementation that is easy to read and maintain. Readability takes priority over fewer lines.
+- Keep code concise by removing unnecessary complexity, duplication, and indirection. Do not compress formatting or control flow just to make it shorter.
+- Use descriptive names, conventional formatting, and straightforward control flow. Split dense expressions and nested ternaries into clear steps.
+- Extract functions and components when they clarify a responsibility or isolate meaningful logic. Avoid both oversized functions and fragmentation into trivial helpers.
 - Focus tests on meaningful behavior and realistic failure cases.
-- Use comments to explain intent or usage; keep them current.
+
+## Documentation and comments
+
+- Document every function with a preceding `/** ... */` comment.
+- Exported public functions and public methods need full JSDoc: a purpose summary, `@param` for each parameter, and `@returns` when they return a value.
+- Private and internal functions need only a short description of their purpose or intent.
+- Keep comments current and explain behavior, intent, or usage rather than narrating the implementation.
+- For documentation and skills, include only instructions that change an agent's decisions. Remove generic advice, repetition, and speculative edge cases while retaining enough context to apply the instructions correctly.
 
 ## TypeScript
 
