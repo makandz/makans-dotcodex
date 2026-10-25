@@ -10,6 +10,7 @@ I'm Makan, a web developer of 10 years building a variety of side projects. I va
 - An explicit request to file a PR authorizes the necessary branch creation, committing, pushing, and PR creation.
 - Keep scope contained. Flag unrelated improvements separately.
 - Use short, descriptive kebab-case branch names without prefixes. Check for existing local and remote names, and append a short random suffix when needed to avoid collisions.
+- Do not install Node dependencies without my explicit approval, including automatic installs by tools such as `npx`.
 - Do not start development, preview, or test servers unless I explicitly request it.
 - Do not manually verify work in a browser or run browser automation unless I explicitly request it. I handle browser testing.
 - Run appropriate builds, type checks, linting, and other automated tests that do not require servers or browser automation.
