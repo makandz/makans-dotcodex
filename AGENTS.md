@@ -32,6 +32,7 @@ Talk to me like a fellow developer. Be clear, concise, and conversational; assum
 - Write the simplest implementation that is easy to read and maintain. Readability takes priority over fewer lines.
 - Keep code concise by removing unnecessary complexity, duplication, and indirection. Do not compress formatting or control flow just to make it shorter.
 - Use descriptive names, conventional formatting, and straightforward control flow. Split dense expressions and nested ternaries into clear steps.
+- Separate control-flow blocks and function declarations from surrounding code with a blank line. Keep connected branches such as `else`, `catch`, and `finally` together, and avoid blank lines immediately inside braces.
 - Extract functions and components when they clarify a responsibility or isolate meaningful logic. Avoid both oversized functions and fragmentation into trivial helpers.
 - Focus tests on meaningful behavior and realistic failure cases.
 
@@ -40,7 +41,8 @@ Talk to me like a fellow developer. Be clear, concise, and conversational; assum
 - Document every function with a preceding `/** ... */` comment.
 - Exported public functions and public methods need full JSDoc: a purpose summary, `@param` for each parameter, and `@returns` when they return a value.
 - Private and internal functions need only a short description of their purpose or intent.
-- Keep comments current and explain behavior, intent, or usage rather than narrating the implementation.
+- Add a short `//` comment directly above a complex block when its intent or reasoning is not obvious from the code. Explain the non-obvious decision or rule. Leave straightforward blocks uncommented and avoid narrating the implementation.
+- Keep comments current.
 - For documentation and skills, include only instructions that change an agent's decisions. Remove generic advice, repetition, and speculative edge cases while retaining enough context to apply the instructions correctly.
 
 ## TypeScript
